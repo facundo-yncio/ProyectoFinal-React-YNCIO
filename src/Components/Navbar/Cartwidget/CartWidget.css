@@ -1,0 +1,33 @@
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px #555;
+    margin-bottom: 10px;
+}
+
+.boton {
+    transition-duration: 0.4s;
+    background-color: rgb(225, 241, 247);
+    padding: 16px 20px; 
+    height: 60px;
+    border-color: transparent;
+    color: rgb(1, 1, 67);
+    border-radius: 75%;
+  }
+  
+.boton:hover {
+    background-color: white; 
+    color: black;
+  }
+
+.navbar {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
